@@ -25,7 +25,8 @@ nav ul li a{
     color:indigo;
     text-decoration: none;
     font-weight:bold;
-    trransition:color 0.3s ease;
+    transition:color 0.3s ease;
+    position:relative;
 }
  nav ul li a:hover{
     color: indianred;
@@ -60,6 +61,20 @@ form:{
     max-with:400px;
     margine:0auto;
 }
+input,textarea,button{
+      width:100%;
+    padding:10px;
+    font-size:1rem;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+button{
+    background-colour:#333;
+    colour:white;
+    curser:pointer;
+    transition:background-colour 0.3s ese
+    background-colour:#ff9800;
+}
 section h2{
     colour: #333;
 }
@@ -71,4 +86,23 @@ footer{
     possition:absolute;
     bottom: 0;
     width: 100%;
+}
+nav ul li a :before{
+    content:'';
+    position:absolute
+    left:0;
+    bottom:0;
+    height:2px; 
+    width:0;
+    background:#ff9800;
+    transition:width 0.3s ese-in-out;
+}
+width:100%;{
+    @ media (max-width:768px{
+    nav ul
+    }
+flex-direction:column;
+}
+project{
+    text-align:centre;
 }
