@@ -39,6 +39,27 @@ section{
     max-width: 800px;
     margin: 20px auto;
 }
+.project{
+    background-colour: red
+    margine:20px autio;
+    padding:20px;
+    border-radius:10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1)
+    transition:transform 0.3s ease-in-out
+    display:flex;
+    flex-direction:column;
+       alighn-items:centre;
+}
+.project:hover{
+    transform:translate(-5px)
+}
+form:{
+    display:flex;
+    flex-direction:column;
+    gap:15px;m
+    max-with:400px;
+    margine:0auto;
+}
 section h2{
     colour: #333;
 }
