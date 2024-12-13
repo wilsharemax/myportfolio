@@ -98,11 +98,11 @@ nav ul li a :before{
     transition:width 0.3s ese-in-out;
 }
 width:100%;{
-    @ media (max-width:768px{
+    @media (max-width:768px{
     nav ul
     }
 flex-direction:column;
 }
 project{
     text-align:centre;
-}
+}}
